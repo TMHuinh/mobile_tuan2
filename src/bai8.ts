@@ -1,0 +1,5 @@
+Promise.resolve(5)
+.then((num: number): number => num * num)
+.then((squa: number): number => squa * 2)
+.then((doubled:number):number=>doubled+5)
+.then((result)=>console.log(result))
